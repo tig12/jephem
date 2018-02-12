@@ -1,0 +1,8 @@
+# ********************************************************************
+# JEphem RessourceBundle - NewCurveDialog.lang
+# ********************************************************************
+
+# ************ General ***************
+Dialog.Title            = New Curve
+Dialog.Title_fr         = Nouvelle courbe
+

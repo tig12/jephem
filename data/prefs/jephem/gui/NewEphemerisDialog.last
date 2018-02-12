@@ -1,0 +1,24 @@
+#Last values entered by the user in NewEphemerisDialog
+#Fri Jul 07 10:32:32 CEST 2017
+lastFrame=3
+lastSelectedTab=2
+lastDisplayDateJDs=0
+lastBeginHour=01\:38\:55
+lastUnits=0, 1, 1, 0, 3, 3
+lastInstantsInRowCol=1
+lastPrecision=0.1
+lastSelectedCoords=0, 1, 2, 3, 4, 5
+lastLstDisplayEvery=3
+lastEndDate=
+lastNbDates=3
+lastAstroEngine=SwissEphemeris
+lastSpecifyNbDates=true
+lastBeginDate=27/10/2006
+lastTimeFrame=0
+lastDegreeExpr=0
+lastCoordExpr=1
+lastPlanets=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+lastEndHour=
+lastTxtDisplayEvery=1
+lastUseSymbols=false
+lastDisplayErrorMsg=true

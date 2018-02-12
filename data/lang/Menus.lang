@@ -1,0 +1,35 @@
+# ********************************************************************
+# JEphem RessourceBundle - Menus.lang
+# ********************************************************************
+# Contains Strings displayed in menus ; these strings can be repeated in other bundles
+
+####### Edit ######
+menu.File                 = File
+menu.File_fr              = Fichier
+menu.Save                 = Save
+menu.Save_fr              = Enregistrer
+menu.SaveAs               = Save as...
+menu.SaveAs_fr            = Enregistrer sous...
+menu.Quit                 = Quit
+menu.Quit_fr              = Quitter
+
+####### Astro ######
+menu.Astro                = Astro
+menu.Ephemeris            = Ephemeris
+menu.Ephemeris_fr         = Ephémérides
+menu.SkyMap               = Sky map
+menu.SkyMap_fr            = Carte du ciel
+menu.Curve                = Curve
+menu.Curve_fr             = Tracé de courbe
+
+####### Tools ######
+menu.Tools                = Tools
+menu.Tools_fr             = Outils
+menu.Preferences          = Preferences
+menu.Preferences_fr       = Préférences
+
+####### Help ######
+menu.Help                 = Help
+menu.Help_fr              = Aide
+menu.About                = About...
+menu.About_fr             = A propos...

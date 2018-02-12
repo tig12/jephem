@@ -1,0 +1,40 @@
+# ********************************************************************
+# JEphem RessourceBundle - General.lang
+# ********************************************************************
+# Contains general strings that can be used in several contexts
+# - actions (for buttons) and their tool tip texts (TTT)
+# - strings contained in common message boxes
+# This file is always loaded into memory.
+
+# ************ General ***************
+application.title = JEphem
+
+# ************ Actions ***************
+action.Quit             = Quit
+action.QuitTTT          = Quit the application
+action.Continue         = Continue
+action.Continue_fr      = Continuer
+action.Help             = Help
+#action.HelpTTT          = Opens the help in a web browser
+action.Help_fr          = Aide
+action.OK               = OK
+action.Cancel_en        = Cancel
+action.Cancel_fr        = Annuler
+action.Apply            = Apply
+action.Apply_fr         = Appliquer
+
+# ************ Misc words, that can be used in several contexts ***************
+error.FieldCannotBeZero= This field can't be equal to zero. 
+FieldCannotBeZero_fr= Ce champ ne peut pas être nul. 
+
+# ************ Message errors ***************
+Warning_en= Warning
+Warning_fr= Attention
+Error_en= Error
+Error_fr= Erreur
+error.Internal_en= An internal error occured - Please contact www.jephem.org
+error.Internal_fr= Une erreur interne est survenue - Merci de contacter www.jephem.org
+error.LAF_en= Look and Feel error
+error.LAF_fr= Erreur de 'Look and Feel'
+error.IncorectValueOfField_en= Incorrect value of field
+error.IncorectValueOfField_fr= Valeur incorrecte du champ

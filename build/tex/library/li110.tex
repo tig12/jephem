@@ -1,0 +1,93 @@
+% For page about spherical to cartesian transformations for velocities
+\documentclass{article}
+\begin{document}
+\begin{math}
+$$
+\dot{X}\ \ \ \dot{Y}\ \ \ \dot{Z}
+\\\\
+X, Y, Z, \dot{X}, \dot{Y}, \dot{Z}
+\\\\
+\dot{\rho}, \dot{\theta}, \dot{\varphi},
+\\\\
+% base equation (formula 1)
+\left\lbrace
+\begin{array}{l}
+X=\rho\cos{\varphi}\cos{\theta}\\
+Y=\rho\cos{\varphi}\sin{\theta}\\
+Z=\rho\sin{\varphi}\\
+\end{array}
+\right.
+\\\\\\\\
+% sphere to cart - positions
+\left\lbrace
+\begin{array}{l}
+\rho = \sqrt{X^2+Y^2+Z^2}\\
+\theta=\arcsin{\frac{Y}{X}}\\
+\varphi=\arctan{\frac{Z}{\sqrt{X^2+Y^2+Z^2}}}\\
+\end{array}
+\right.
+\\\\\\\\
+\left\lbrace
+\begin{array}{l}
+\rho\in[0, +\infty[\\
+\theta\in[0, 2\pi[\\
+\varphi\in[-\frac{\pi}{2},\frac{\pi}{2}[\\
+\end{array}
+\right.
+\\\\
+%
+% derivation (formula 2)
+%
+\left\lbrace
+\begin{array}{l}
+\dot{X}=\cos{\varphi}\cos{\theta}\dot{\rho} + \rho\cos{\varphi}\sin{\theta}\dot{\theta} + \rho\sin{\varphi}\cos{\theta}\dot{\varphi}\\
+\dot{Y}=\cos{\varphi}\sin{\theta}\dot{\rho} - \rho\cos{\varphi}\cos{\theta}\dot{\theta} + \rho\sin{\varphi}\sin{\theta}\dot{\varphi}\\
+\dot{Z}=\sin{\varphi}\dot{\rho} - \rho\cos{\varphi}\dot{\varphi}\\
+\end{array}
+\right.
+%
+\Longrightarrow
+\left\lbrace
+\begin{array}{l}
+\dot{X}=\frac{X}{\rho}\dot{\rho} + Y\dot{\theta} + Z\cos{\theta}\dot{\varphi}\\
+\dot{Y}=\frac{Y}{\rho}\dot{\rho} - X\dot{\theta} + Z\sin{\theta}\dot{\varphi}\\
+\dot{Z}= \frac{Z}{\rho}\dot{\rho} - \rho\cos{\varphi}\dot{\varphi}
+\end{array}
+\right.
+\\\\
+%
+%Intermediate formulae
+%
+\rho = \sqrt{X^2+Y^2+Z^2}
+\\\\
+X^2+Y^2=\rho^2cos^2\varphi \Rightarrow \rho\cos{\varphi}=\sqrt{X^2+Y^2}
+\\\\
+cos{\theta}=\frac{X}{\rho\cos{\varphi}} \Rightarrow cos{\theta}=\frac{X}{\sqrt{X^2+Y^2}}
+\\\\
+sin{\theta}=\frac{Y}{\rho\cos{\varphi}} \Rightarrow sin{\theta}=\frac{Y}{\sqrt{X^2+Y^2}}
+%
+%2nd expression of formula 2
+%
+\\\\
+\left\lbrace
+\begin{array}{l}
+\dot{X}=\frac{X}{\sqrt{X^2+Y^2+Z^2}}\dot{\rho} + Y\dot{\theta} + \frac{ZX}{\sqrt{X^2+Y^2}}\dot{\varphi}\\\\
+\dot{Y}=\frac{Y}{\sqrt{X^2+Y^2+Z^2}}\dot{\rho} - X\dot{\theta} + \frac{ZY}{\sqrt{X^2+Y^2}}\dot{\varphi}\\\\
+\dot{Z}= \frac{Z}{\sqrt{X^2+Y^2+Z^2}}\dot{\rho} - \sqrt{X^2+Y^2}\dot{\varphi}\\\\
+\end{array}
+\right.
+%
+%Final results
+%
+\\\\
+\\\\
+\left\lbrace
+\begin{array}{l}
+\dot{\rho} = \frac{X\dot{X} + Y\dot{Y} + Z\dot{Z}}{\sqrt{X^2+Y^2+Z^2}}\\\\
+\dot{\theta} = \frac{\dot{X}Y - X\dot{Y}}{X^2+Y^2}\\\\
+\dot{\varphi} = \frac{Z(X\dot{X}+Y\dot{Y})-(X^2+Y^2)\dot{Z}}{(X^2+Y^2+Z^2)\sqrt{X^2+Y^2}}\\\\
+\end{array}
+\right.
+$$
+\end{math}
+\end{document}

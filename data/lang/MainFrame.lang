@@ -1,0 +1,11 @@
+# ********************************************************************
+# JEphem RessourceBundle - MainFrame.lang
+# ********************************************************************
+# Contains the strings used in the main frame
+
+lang.FR               = French
+lang.FR_fr            = Français
+lang.EN               = English
+lang.EN_fr            = Anglais
+
+

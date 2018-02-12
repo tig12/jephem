@@ -1,0 +1,1 @@
+java -classpath bin:lib/kunststoff.jar:lib/swisseph.jar:lib/tig.jar jephem.JEphem

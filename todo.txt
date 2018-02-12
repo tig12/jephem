@@ -1,0 +1,33 @@
+TODO.txt - JEphem/java
+
+- BUG : AstroContext built with one unit ; the call to Body.setPositionCoords() (in finnalizeResults()) needs 3 units.
+
+- recompile with gui components with -deprecation.
+
+- Changed VSOP87 - before use, must call setDataPath ; check this in build classes.
+
+- Recheck and make coherent exceptions
+
+- In all javadocs comments, see terms "reference frame" and "coordinate system".
+
+- Remove all mechanisms imposing certain values for static final constants (ex solar system body names).
+
+- Remove mechanisms using SolarSystem.EN_BODIES
+
+- Finalize prefs API : clean exception mechanism + write explaining web page.
+
+- When default properties are handled, send a message to the user.
+
+- Write clean Tig and JEphem exception classes, permitting to build a JEphemException from an other Exception
+
+- Handle internationalization of frames and unit labels. Put in classes Space and Units???
+(build mechanism that permits to use astro API with hard-coded labels ; internationalized labels would be used only in the case of calls from the GUI structure).
+
+- Put the getFrameLabels, getUnitLabels etc... in a class Formats to keep astro API independant from internationalization
+
+- Implementation of PlanetaryTheory
+
+- Use IllegalArgumentException everywhere.
+
+- Astro : mechanism to get the coordinates of FRAME_THEORY
+

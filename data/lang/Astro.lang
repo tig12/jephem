@@ -1,0 +1,63 @@
+# ********************************************************************
+# JEphem RessourceBundle - Astro.lang
+# ********************************************************************
+# Contains general astronomical terms
+# - General
+# - Planets
+# - Frames and units
+# - Miscelaneous
+# - Error messages
+#
+
+# ************ General ***************
+Astronomy       = Astronomy
+Astronomy_fr    = Astronomie
+
+# ************ Planets ***************
+Planet          = Planet
+Planet_fr       = Planète
+Planets         = Planets
+Planets_fr      = Planètes
+### warning ### order must respect order of SolarSystemConstants
+### There must be ALL labels in this array
+planetNames     = Sun, Moon, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto
+planetNames_fr  = Soleil, Lune, Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune, Pluton
+
+# ************ Frames and units ***************
+### warning ### Strings of frameLabels must be ordered like constants from jephem.astro.SpaceConstants
+frameLabels     = Frame of theory, Heliocentric ecliptic geometric, Geocentric ecliptic, Geocentric equatorial
+frameLabels_fr  = Repère des théories, Héliocentrique écliptique géometrique, Géocentrique ecliptique, Géocentrique équatorial
+Frame           = Frame
+Frame_fr        = Repère
+Unit            = Unit
+Unit_fr         = Unité
+arcSeconds      = arc seconds
+arcSeconds_fr   = secondes d'arc
+Coordinate      = Coordinate
+Coordinate_fr   = Coordonnée
+Coordinates     = Coordinates
+Coordinates_fr  = Coordonnées
+Spherical       = Spherical
+Spherical_fr    = Sphériques
+Cartesian       = Cartesian
+Cartesian_fr    = Cartésiennes
+x1              = x1
+x2              = x2
+x3              = x3
+v1              = v1
+v2              = v2
+v3              = v3
+
+# ************ Miscelaneous ***************
+Precision       = Precision
+Precision_fr    = Précision
+Ephemeris       = Epheméris
+Ephemeris_fr    = Ephémérides
+
+# ************ error messages (AstroException messages) ***************
+NotGuaranteedResults             = Warning : Some results are not guaranteed.
+NotGuaranteedResults_fr          = Attention : certains résultats ne sont pas garantis.
+PrecisionNotHandledForDates      = Required precision can't be reached for the following dates :
+PrecisionNotHandledForDates_fr   = La précision demandée ne peut être atteinte pour les dates suivantes :
+DateLimitForTheory               = The following dates are out of date limits of used theory : 
+DateLimitForTheory_fr            = Les dates suivantes ne sont sortent des limites de la théorie utilisée : 

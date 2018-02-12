@@ -1,0 +1,24 @@
+
+
+Ephemeris computation software, written between 2000 and 2002, not modified since.
+Writen in java 2, still works in 2018 on a java 8 JVM.
+
+Contains :
+<ul>
+    <li>Implementation of high-precision ephemeris for planets, using analytical theories of the BDL : VSOP87 (Mercury to Neptune) , ELP82 (Moon), Pluto99.</li>
+    <li>Sky chart drawing</li>
+</ul>
+
+See a more detailed presentation on <a href="http://www.astrosurf.com/jephem/index_en.htm">astrosurf.com/jephem</a>
+
+Written to explore ephemeris computation and to provide a GPL alternative to Swiss Ephemeris (sweph).
+Became useless when sweph became GPL. 
+
+Published because some code can be re-used : 
+
+
+<a href="http://www.astrosurf.com/jephem/informatic/javadoc/JEphem/index.html">javadoc</a>
+
+
+
+

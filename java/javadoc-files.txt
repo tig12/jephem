@@ -1,0 +1,17 @@
+jephem 
+jephem.astro
+jephem.astro.solarsystem
+jephem.astro.solarsystem.vsop87
+jephem.astro.spacetime
+jephem.astro.sky
+jephem.tools
+jephem.gui 
+jephem.util
+#tig
+#tig.maths
+
+# C:\B_Dvpt\JEphem\build\BuildVSOP87\BuildVSOP87.java 
+# C:\B_Dvpt\JEphem\build\testVSOP87\TestVSOP87.java 
+# C:\B_Dvpt\JEphem\build\AnalyseVSOP87\src\AnalyseVSOP87.java 
+# C:\B_Dvpt\JEphem\build\BuildTestPluto99\BuildTestPluto99.java 
+# C:\B_Dvpt\JEphem\build\BuildELP2000\BuildELP2000.java

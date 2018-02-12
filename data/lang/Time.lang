@@ -1,0 +1,47 @@
+# ********************************************************************
+# JEphem RessourceBundle - Time.lang
+# ********************************************************************
+# Contains terms related with time
+
+# ************ Time frames ***************
+UTC               = UTC
+TT-TDB            = TT / TDB
+
+# ************ Words related with time ***************
+Today             = today
+Today_fr          = Aujourd'hui
+Now               = Now
+Now_fr            = Maintenant
+
+# ************ Time units ***************
+# *** singular ***
+second            = second
+second_fr         = seconde
+minut             = minut
+minut_fr          = minute
+hour              = hour
+hour_fr           = heure
+day               = day
+day_fr            = jour
+week              = week
+week_fr           = semaine
+month             = month
+month_fr          = mois
+year              = year
+year_fr           = an
+
+# *** plural ***
+seconds           = seconds
+seconds_fr        = secondes
+minuts            = minuts
+minuts_fr         = minutes
+hours             = hours
+hours_fr          = heures
+days              = days
+days_fr           = jours
+weeks             = weeks
+weeks_fr          = semaines
+months            = months
+months_fr         = mois
+years             = years
+years_fr          = ans

@@ -1,0 +1,42 @@
+# ********************************************************************
+# JEphem RessourceBundle - SkyViewer.lang
+# ********************************************************************
+# Contains terms used in class jephem.astro.gui.SkyViewer
+
+# ************ Buttons tool tip texts ***************
+TTTZoomIn                    = Zoom in
+TTTZoomIn_fr                 = Zoom +
+TTTZoomOut                   = Zoom out
+TTTZoomOut_fr                = Zoom -
+
+TTTMoveLeft                  = Move left
+TTTMoveLeft_fr               = Vers la gauche
+TTTMoveRight                 = Move right
+TTTMoveRight_fr              = Vers la droite
+TTTMoveUp                    = Move up
+TTTMoveUp_fr                 = Vers le haut
+TTTMoveDown                  = Move Down
+TTTMoveDown_fr               = Vers le bas
+
+TTTRotateClockwise           = Rotate clockwise
+TTTRotateClockwise_fr        = Rotation
+TTTRotateAntiClockwise       = Rotate anti-clockwise
+TTTRotateAntiClockwise_fr    = Rotation
+
+TTTHorGrid                   = Show / hide Horizon grid
+TTTHorGrid_fr                = Montrer / cacher les grille horizontale
+TTTEqGrid                    = Show / hide equatorial grid
+TTTEqGrid_fr                 = Montrer / cacher la grille équatoriale
+TTTEcGrid                    = Show / hide ecliptic grid
+TTTEcGrid_fr                 = Montrer / cacher la grille écliptique
+TTTGalGrid                   = Show / hide alactic grid
+TTTGalGrid_fr                = Montrer / cacher la grille galactique
+
+TTTConstAbbreviations        = Show / hide Constellations abbreviations
+TTTConstAbbreviations_fr     = Montrer / cacher les abbréviations des constellations
+TTTConstLines                = Show / hide Constellations lines
+TTTConstLines_fr             = Montrer / cacher les dessins des constellations
+TTTConstBoundaries           = Show / hide Constellations limits
+TTTConstBoundaries_fr        = Montrer / cacher les limites des constellations
+
+

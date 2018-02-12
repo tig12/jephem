@@ -1,0 +1,5 @@
+
+cd /home/thierry/dev/tools/approach/astronomy/JEphem/java
+
+
+javac -d bin -classpath 'lib/kunststoff.jar;lib/swisseph.jar;bin;lib/tig.jar;bin' -sourcepath src -d bintest src/jephem/tools/Ephemeris.java

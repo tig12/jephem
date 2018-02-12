@@ -1,0 +1,7 @@
+# ********************************************************************
+# JEphem preferences file - Directories.prefs
+# ********************************************************************
+# NE FONCTIONNE PAS ENCORE - but : remove user.dir in the code.
+
+JEphemRootUrl = file://C:/b_dvpt/JEphem
+JEphemRootDir = C:\\b_dvpt\\JEphem\\data

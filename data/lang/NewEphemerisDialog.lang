@@ -1,0 +1,72 @@
+# ********************************************************************
+# JEphem RessourceBundle - NewEphemerisDialog.lang
+# ********************************************************************
+
+# ************ General ***************
+Dialog.Title            = New Ephemeris
+Dialog.Title_fr         = Nouvelles éphémérides
+
+# ************ General tabbed pane ************
+General                 = General
+General_fr              = Général
+Precision               = Precision
+Precision_fr            = Précision
+AstroEngine             = Astro engine :
+AstroEngine_fr          = Moteur astro :
+Appearence              = Appearence
+Appearence_fr           = Apparence
+UseSymbols              = Use planetary symbols
+UseSymbols_fr           = Utiliser les symboles des planètes
+InstantsInRows          = Instants in rows, planets in columns
+InstantsInRows_fr       = Instants en lignes, planètes en colonnes
+InstantsInCols          = Instants in columns, planets in rows
+InstantsInCols_fr       = Instants en colonnes, planètes en lignes
+DisplayErrorMessages    = Display error messages
+DisplayErrorMessages_fr = Afficher les messages d'erreur
+
+# ************ Dates tabbed pane ************
+Dates                   = Dates
+JulianDays              = Julian days
+JulianDays_fr           = Jours juliens
+BeginDate               = Begin date :
+BeginDate_fr            = Date de début :
+BeginHour               = Begin hour :
+BeginHour_fr            = Heure de début :
+EndDate                 = End date :
+EndDate_fr              = Date de fin :
+EndHour                 = End hour :
+EndHour_fr              = Heure de fin : 
+DisplayEvery            = Display coordinates every : 
+DisplayEvery_fr         = Afficher les coordonnées tous les :
+DateDisplay             = Date display
+DateDisplay_fr          = Affichage des dates
+DisplayJDs              = Display julian days
+DisplayJDs_fr           = Afficher les jours juliens
+TimeFrame               = Time frame
+TimeFrame_fr            = Echelle de temps
+SpecifyEndDate          = Specify end date
+SpecifyEndDate_fr       = Spécifier la date de fin
+SpecifyNbDates          = Specify number of dates
+SpecifyNbDates_fr       = Specifier le nombre de dates
+NbDates                 = Number of dates :
+NbDates_fr              = Nombre de dates :
+
+# ************ Coordinates tabbed pane ************
+Coordinates             = Coordinates
+Coordinates_fr          = Coordonnées
+RepresentedCoordinates    = Represented coordinates
+RepresentedCoordinates_fr = Coordonnées représentées
+CoordinateExpression    = Coordinate expression :
+CoordinateExpression_fr = Expression des coordonnées :
+DegreesExpression       = Degrees expression : 
+DegreesExpression_fr    = Expession des degrés : 
+DMS                     = Degrees minutes seconds
+DMS_fr                  = Degrés minutes secondes
+DecDeg                  = Decimal degrees
+DecDeg_fr               = Degrés décimaux
+
+# ************ Error messages ************
+error.EndDatePosterior    = End date must be posterior to begin date.
+error.EndDatePosterior_fr = La date de fin doit être postérieure à la date de début.
+error.selectCoord         = Select at least one coordinate.
+error.selectCoord_fr      = Selectionnez au moins une coordonnée.

@@ -1,0 +1,41 @@
+# ********************************************************************
+# JEphem RessourceBundle - PreferencesDialog.lang
+# ********************************************************************
+# Contains the strings used in the 'Preferences' dialog
+
+# ************ General ***************
+Dialog.Title          = Preferences
+Dialog.Title_fr       = Préférences
+
+# ************ Nodes of the tree ( = titles of the panels) ***************
+Preferences             = Preferences
+Preferences_fr          = Préférences
+General                 = General
+General_fr              = Général
+Directories             = Directories
+Directories_fr          = Répertoires
+KeyboardShortcuts       = Keyboard shortcuts
+KeyboardShortcuts_fr    = Raccourcis clavier
+
+# ************ Panel 'General' ************
+LookAndFeel           = Look and feel :
+PlatformDefault       = Your system's default
+PlatformDefault_fr    = Défaut de votre système
+LAFNote1              = NB : if "Apply" button does not produce any change, it's because
+LAFNote2              = the Look And Feel you selected is not available on your system.
+LAFNote1_fr           = NB : si le bouton "Appliquer" ne produit aucun effet, c'est parce que 
+LAFNote2_fr           = le Look And Feel que vous avez sélectionné n'est pas disponible sur votre système.
+Language              = Lang :
+Language_fr           = Langue :
+Lang.FR               = French
+Lang.FR_fr            = Français
+Lang.EN               = English
+Lang.EN_fr            = Anglais
+LangNote              = Language will be taken into account at next application startup.
+LangNote_fr           = Pour prendre la langue en compte, il faut quitter et redémarrer l'application.
+
+# ************ Panel 'Astro' ************
+DefaultPrecision      = Default precision :
+DefaultPrecision_fr   = Précision par défaut :
+DefaultAstroEngine    = Default astro engine :
+DefaultAstroEngine_fr = Moteur astro par défaut :

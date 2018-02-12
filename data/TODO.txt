@@ -1,0 +1,1 @@
+Maybe, put a folder 'jephem', containing 'gui' and 'astro'

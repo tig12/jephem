@@ -1,0 +1,3 @@
+# If an other language is supported, add an element to this list.
+# And modify the code of PreferencesDialog
+availableLanguages = en, fr

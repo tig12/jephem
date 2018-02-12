@@ -1,0 +1,10 @@
+# ********************************************************************
+# JEphem preferences file - Astro.prefs
+# ********************************************************************
+#
+#Tue Dec 05 12:35:53 CET 2017
+currentBodies=SUN, MOON, MERCURY, VENUS, MARS, JUPITER, SATURN, URANUS, NEPTUNE, PLUTO
+precision=12
+defaultFrame=FRAME_ECLIPTIC
+availableFrames=FRAME_THEORY, FRAME_EC_HELIO_GEOMETRIC, FRAME_ECLIPTIC, FRAME_EQUATORIAL
+ephemImplementation=JEphem

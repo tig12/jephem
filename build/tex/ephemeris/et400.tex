@@ -1,0 +1,56 @@
+% et400.tex
+% For page about Pluto
+\documentclass{article}
+\begin{document}
+\begin{math}
+$$
+\tan{\alpha}=\frac{\Delta_{max}}{EP}
+\\
+\\
+d=EP\tan{\alpha_{max}}
+\\
+\\
+\left\lbrace
+\begin{array}{l}
+t=\frac{JD-2451545}{365.25}\\
+x=-1+2\frac{JD-626150.5}{2185000}
+\end{array}
+\right.
+\Rightarrow
+\left\lbrace
+\begin{array}{l}
+JD=365.25t+2451545\\
+JD=\frac{2185000(x+1)}{2}+626150.5
+\end{array}
+\right.
+\\
+\\
+\Rightarrow x=\frac{2\times 365.25}{2185000}t +
+\frac{2}{2185000}(2451545-626150.5)-1
+\\
+\\
+a=\frac{2\times 365.25}{2185000}
+\\
+\\
+b=\frac{2}{2185000}(2451545-626150.5)-1
+\\
+\\
+$$
+\end{math}
+% Formules pour les vitesses
+$$X = A_{0} + A_{1}x$$
+$$+\sum_i C_i\sin(F_it+P_i)$$
+$$+\sum_jC_jx\sin(F_jt+P_j)$$
+$$+\sum_kC_kx^2\sin(F_kt+P_k)$$
+
+$$X = A_0 + A_1(at+b)$$
+$$+\sum_i C_i\sin(F_it+P_i)$$
+$$+\sum_jC_j(at+b)\sin(F_jt+P_j)$$
+$$+\sum_kC_k(at+b)^2\sin(F_kt+P_k)$$
+
+
+$$\frac{dX}{dt} = A_1a$$
+$$+\sum_i C_iF_i\cos(F_it+P_i)$$
+$$+\sum_jC_j\lbrack F_j(at+b)\cos(F_jt+P_j)+a\sin(F_jt+P_j)\rbrack$$
+$$+\sum_kC_k\lbrack F_k(at+b)^2\cos(F_kt+P_k)+2a(at+b)\sin(F_kt+P_k)\rbrack$$
+\end{document}

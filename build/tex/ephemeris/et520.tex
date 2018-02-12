@@ -1,0 +1,209 @@
+% et520.tex
+% For page about Coordinate transformations
+\documentclass{article}
+\begin{document}
+\begin{math}
+$$\cal{P}\ \ \ \cal{R}_0 \ \ \ \cal{R}_1
+$$
+$$
+\\
+\\
+% Coordinates of points
+P
+\left\vert
+\begin{array}{l}
+x_0\\y_0\\z_0\\
+\end{array}
+\right.
+\ \ \ \
+E
+\left\vert
+\begin{array}{l}
+x_0(E)\\y_0(E)\\z_0(E)\\
+\end{array}
+\right.
+\ \ \ \
+P
+\left\vert
+\begin{array}{l}
+x_1\\y_1\\z_1\\
+\end{array}
+\right.
+\\\\
+\\\\
+% Coordinates of vectors
+\overrightarrow{SP}
+\left\vert
+\begin{array}{l}
+x_0\\y_0\\z_0\\
+\end{array}
+\right.
+\ \ \ \
+\overrightarrow{SE}
+\left\vert
+\begin{array}{l}
+x_0(E)\\y_0(E)\\z_0(E)\\
+\end{array}
+\right.
+\ \ \ \
+\overrightarrow{EP}
+\left\vert
+\begin{array}{l}
+x_1\\y_1\\z_1\\
+\end{array}
+\right.
+%%%%%
+\\\\
+\\\\
+\left\lbrace
+\begin{array}{l}
+x_1=x_0-x_0(E)\\
+y_1=y_0-y_0(E)\\
+z_1=z_0-z_0(E)\\
+\end{array}
+\right.
+\\\\
+\\\\
+\overrightarrow{SE}=-\overrightarrow{ES}
+\\\\
+\\\\
+%%%%%%
+S
+\left\vert
+\begin{array}{l}
+x_1(S)\\y_1(S)\\z_1(S)\\
+\end{array}
+\right.
+\ \ \ \
+\left\lbrace
+\begin{array}{l}
+x_1(S)=-x_0(E)\\
+y_1(S)=-y_0(E)\\
+z_1(S)=-z_0(E)\\
+\end{array}
+\right.
+\\\\
+\\\\
+%
+% Velocities
+%
+\overrightarrow{V_0}(E)\ \ \ \ \
+\overrightarrow{V_0}(P)\ \ \ \ \
+\overrightarrow{V_1}(P)
+\\\\
+\\\\
+\overrightarrow{V_1}(P)=\overrightarrow{V_0}(P)-\overrightarrow{V_0}(E)
+\\\\
+\overrightarrow{V_1}(S)=-\overrightarrow{V_0}(E)
+%
+% coordinates of points
+%
+\\\\
+(x_D^A, y_D^A, z_D^A)
+\\\\
+(x_F^A, y_F^A, z_F^A)
+\\\\
+(x_V^A, y_V^A, z_V^A)
+\\\\
+(x_V^E, y_V^E, z_V^E)
+$$
+%
+% Precession matrix
+%
+\\\\\\\\
+\left(
+\begin{array}{l}
+x_D^A\\
+y_D^A\\
+z_D^A\\
+\end{array}
+\right)
+=\\
+\left(
+\begin{array}{ccc}
+\cos(z_A+\zeta_A)-2\sin^2\frac{\theta_A}{2}\cos z_A\cos \zeta_A &
+-\sin(z_A+\zeta_A)+2\sin^2\frac{\theta_A}{2}\cos z_A\sin \zeta_A &
+-\cos z_a\sin\theta_A
+\\
+\sin(z_A+\zeta_A)-2\sin^2\frac{\theta_A}{2}\sin z_A\cos \zeta_A &
+\cos(z_A+\zeta_A)+2\sin^2\frac{\theta_A}{2}\sin z_A\sin \zeta_A &
+-\sin z_a\sin\theta_A
+\\
+\cos\zeta_A\sin\theta_A & -\sin\zeta_A\sin\theta_A & \cos\theta_A \\
+\end{array}
+\right)
+\left(
+\begin{array}{l}
+x_F^A\\
+y_F^A\\
+z_F^A\\
+\end{array}
+\right)
+%
+% Nutation matrix
+%
+\\\\\\\\
+$$\left(
+\begin{array}{l}
+x_V^A\\
+y_V^A\\
+z_V^A\\
+\end{array}
+\right)
+=\\
+\left(
+\begin{array}{ccc}
+\cos\Delta\psi & -\sin\Delta\psi\cos\varepsilon_A & -\sin\Delta\psi\sin\varepsilon_A\\
+ \cos\varepsilon'_A \sin\Delta\psi & \cos\Delta\varepsilon-2\sin^2\frac{\Delta\psi}{2}\cos\varepsilon_A\cos\varepsilon'_A
+ & -\sin\Delta\varepsilon-2\sin^2\frac{\Delta\psi}{2}\sin\varepsilon_A\cos\varepsilon'_A\\
+\sin\varepsilon'_A \sin\Delta\psi & \sin\Delta\varepsilon-2\sin^2\frac{\Delta\psi}{2}\cos\varepsilon_A\sin\varepsilon'_A
+& \cos\Delta\varepsilon-2\sin^2\frac{\Delta\psi}{2}\sin\varepsilon_A\sin\varepsilon'_A\\
+\end{array}
+\right)
+\left(
+\begin{array}{l}
+x_D^A\\
+y_D^A\\
+z_D^A\\
+\end{array}
+\right)$$
+%
+% Eq to Ec matrix
+%
+\\\\\\\\
+$$\left(
+\begin{array}{l}
+x_V^E\\
+y_V^E\\
+z_V^E\\
+\end{array}
+\right)
+=
+\left(
+\begin{array}{ccc}
+1 & 0 & 1\\
+1 & \cos\epsilon'_A  & \sin\epsilon'_A\\
+0 & -\sin\epsilon'_A  & \cos\epsilon'_A\\
+\end{array}
+\right)
+\left(
+\begin{array}{l}
+x_V^A\\
+y_V^A\\
+z_V^A\\
+\end{array}
+\right)$$
+%%%%%%%%%%%%%%%%%%%%%
+\end{math}
+%%%%%%%%%%%%%%%%%%%%%
+%
+% Delta Psi
+%
+\\\\
+$$\Delta\psi=\sum_{i=1}^{106} \lbrack A_i +A'_i\sin(ARGUMENT)\rbrack$$
+%
+% Delta Epsilon
+%
+\\\\
+$$\Delta\epsilon=\sum_{i=1}^{106} \lbrack B_i +B'_i\cos(ARGUMENT)\rbrack$$
+\end{document}

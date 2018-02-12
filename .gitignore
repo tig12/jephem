@@ -1,0 +1,12 @@
+
+
+*.class
+
+z.*
+
+java/bin/
+git add -f java/bin/remove
+
+
+
+
