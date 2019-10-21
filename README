@@ -1,24 +1,31 @@
 
-
 Ephemeris computation software, written between 2000 and 2002, not modified since.
 Writen in java 2, still works in 2018 on a java 8 JVM.
+Unmaintained project
 
 Contains :
-<ul>
-    <li>Implementation of high-precision ephemeris for planets, using analytical theories of the BDL : VSOP87 (Mercury to Neptune) , ELP82 (Moon), Pluto99.</li>
-    <li>Sky chart drawing</li>
-</ul>
+- Implementation of high-precision ephemeris for planets, using analytical theories of the BDL (Bureau des longitudes) : VSOP87 (Mercury to Neptune) , ELP82 (Moon), Pluto99.
+- Sky chart drawing
 
-See a more detailed presentation on <a href="http://www.astrosurf.com/jephem/index_en.htm">astrosurf.com/jephem</a>
+Originally published on http://www.astrosurf.com/jephem
+Published in a git repository because some code can be re-used.
 
-Written to explore ephemeris computation and to provide a GPL alternative to Swiss Ephemeris (sweph).
-Became useless when sweph became GPL. 
+Written to explore ephemeris computation and to have a GPL alternative to Swiss Ephemeris.
+Became useless when Swiss Ephemeris was released in GPL.
 
-Published because some code can be re-used : 
+Javadoc : http://www.astrosurf.com/jephem/informatic/javadoc/JEphem/index.html
 
+This program is mainly interesting for its implementation of high precision ephemeris computation and exhaustive tests.
+It uses VSOP87 (version A), based on the work of the BDL, using XEphem's code as a guide.
+Also contains an implementation of planet velocities.
+See these pages at astrosurf.com :
+- VSOP87 presentation, precision : http://astrosurf.com/jephem/astro/ephemeris/et300VSOP_en.htm,
+- VSOP87 build process : http://astrosurf.com/jephem/astro/ephemeris/et320buildVSOP_en.htm (why I choosed VSOP87 A ; formulae for planet velocities),
+- VSOP87 truncation : http://astrosurf.com/jephem/astro/ephemeris/et350truncateVSOP_en.htm (if you are interseted by a truncated version of VSOP87, also look at Meeus' Astronomical Algorithms).
+- VSOP87 tests : http://astrosurf.com/jephem/astro/ephemeris/et380testVSOP_en.htm
 
-<a href="http://www.astrosurf.com/jephem/informatic/javadoc/JEphem/index.html">javadoc</a>
+Also contains java implementation of various astronomical high precision computations : precession, nutation, delta T (TAI - UTC).
 
-
-
-
+Rudimentary sky chart drawing contains code that can be re-used :
+- http://astrosurf.com/jephem/astro/ephemeris/et520transfo_en.htm : a page describing coordinate transformations to go from equatorial coordinates to screen coordinates.
+- List of constellations and coordinates of their boundaries : http://astrosurf.com/jephem/astro/skymap/sm150constellationData_en.htm
